@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import header_small_photo from "@/app/assets/imgs/header_small_photo.webp";
+
+import amg from "@/app/assets/imgs/amg.jpg";
 import murugu_animation from "@/app/assets/imgs/murugu_animation_2.gif";
 
 import { header_nav_datas } from "@/app/staticDatas/datas";
@@ -26,8 +28,8 @@ const Header = () => {
                     height="40"
                     width="40"
                     alt="logo"
-                    src={header_small_photo}
-                    className="header_logo relative"
+                    src={amg}
+                    className="header_logo relative rounded-full"
                   />
                 </span>
               </span>
