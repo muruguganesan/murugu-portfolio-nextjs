@@ -1,0 +1,18 @@
+:root {
+    --color-orange: #FD6F00;
+}
+
+.c {
+    max-width: 1400px;
+    margin: auto;
+}
+.section_padding {
+    padding-top: 139px;
+}
+
+/* Background Color */
+.bg_orange {
+    background-color: #FD6F00;
+}
+
+/* Text Color */
