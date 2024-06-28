@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: "Murugu's Contact Details",
   description:
     "He is Currently working as a Software Engineer (Front End Devleoper) in one of the tech startup at Chennai",
+    icons: {
+      icon: '/images/contact.ico'
+    },
 };
 
 const Contact = () => {

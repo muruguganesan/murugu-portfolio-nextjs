@@ -4,7 +4,10 @@ export const metadata: Metadata = {
   title: "Murugu ganesan Projects",
   description:
     "Software Engineer, Front End Developer, HTML, CSS, JavaScript, React.js, Next.js, Node.js (Upcoming), ECommerce, Betting App, Hotels, Internal Company Web Applications",
-};
+    icons: {
+      icon: '/images/projects.ico'
+    },
+  };
 
 const Projects = () => {
   return (

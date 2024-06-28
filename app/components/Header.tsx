@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import header_small_photo from "@/app/assets/imgs/header_small_photo.webp";
+
 
 import amg from "@/app/assets/imgs/amg.jpg";
 import murugu_animation from "@/app/assets/imgs/murugu_animation_2.gif";
@@ -39,7 +39,7 @@ const Header = () => {
           <nav className="header_nav_wrap flex gap-[45px] items-center">
             <ul className="header_nav_ul flex gap-[35px] flex-wrap">
               {header_nav_datas.map((navItem) => (
-                <li key={navItem.id} className="header_nav_item text-[30px]">
+                <li key={navItem.id} className="header_nav_item text-[26px]">
                   <Link href={navItem.link} className="header_item_link">
                     {navItem.text}
                   </Link>
