@@ -9,10 +9,29 @@
 .section_padding {
     padding-top: 139px;
 }
-
+* {
+    font-size: 14px;
+    font-family: var(--font-poppins);
+}
 /* Background Color */
 .bg_orange {
     background-color: #FD6F00;
 }
 
 /* Text Color */
+.text_orange {
+    color: #FD6F00;
+}
+
+/* Reusable Button */
+
+.reusable_btn {
+    color: #fff;
+    background-color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    transition: background-color 0.4s, color 0.4s;
+}
+.reusable_btn:hover {
+    color: var(--color-orange);
+    background-color: #fff;
+}

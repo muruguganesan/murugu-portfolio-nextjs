@@ -4,15 +4,18 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 
-
 const inter = Inter({ subsets: ["latin"] });
-const poppins = Poppins({subsets :["latin"], weight: ["400", "500","600"]});
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-poppins",
+});
 
 export const metadata: Metadata = {
   title: "Murugu ganesan Porfolio",
   description: "Software Engineer, Technies, Technology, Open to Work",
   icons: {
-    icon: '/images/dashboard.png'
+    icon: "/images/dashboard.png",
   },
 };
 
@@ -23,11 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <main className="wrapper">
-          <Header />
-          {children}
-        </main>
+      <body className={`${poppins.variable} ${inter.className}`}>
+        <Header />
+        <main className="wrapper">{children}</main>
       </body>
     </html>
   );
