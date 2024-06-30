@@ -1,6 +1,7 @@
+import React from 'react';
 import { ReusableButtonDataType } from '@/app/dataTypes/commonDataTypes';
 
-const ButtonComp = ({ customClass = "test", text = "Button", initialState = null, btnFns }: ReusableButtonDataType) => {
+const ButtonComp: React.FC<ReusableButtonDataType> = ({ customClass = "test", text = "Button", btnFns }) => {
   return (
     <div className="button_comp_wrap">
       <button

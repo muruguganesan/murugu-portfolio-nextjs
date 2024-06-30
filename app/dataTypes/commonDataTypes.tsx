@@ -1,6 +1,10 @@
 // Header Nav Datas
 // Reusable Button Data Types
 // Reusable Button Data Types
+// Title with Description
+// Button Groups
+
+
 
 // Header Nav Datas
 interface HeaderNavDataTypes {
@@ -14,9 +18,21 @@ interface ReusableButtonDataType {
   customClass?: string;
   text?: string;
   initialState?: boolean | string | number | null;
-  btnFns?: () => void;
+  btnFns?: any;
   color?: string;
   backgroundColor?: string;
 }
 
-export type { HeaderNavDataTypes, ReusableButtonDataType };
+// Title with Description
+interface TitleWithDescType {
+  title: string; 
+  desc: string 
+}
+
+// Button Groups
+interface ButtonGroupType {
+  id: number,
+  tech: string
+}
+
+export type { HeaderNavDataTypes, ReusableButtonDataType, TitleWithDescType, ButtonGroupType };

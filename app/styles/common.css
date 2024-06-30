@@ -24,7 +24,6 @@
 }
 
 /* Reusable Button */
-
 .reusable_btn {
     color: #fff;
     background-color: var(--color-orange);
@@ -34,4 +33,28 @@
 .reusable_btn:hover {
     color: var(--color-orange);
     background-color: #fff;
+}
+.button_gps .reusable_btn {
+    color: #000;
+    background-color: #F8F8F8;
+    border: 2px solid #545454;
+    transition: background-color 0.4s, color 0.4s;
+}
+.btnGrp_btn.active_tab .reusable_btn {
+    color: #fff;
+    background-color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    transition: background-color 0.4s, color 0.4s;
+}
+
+
+/* Reusable Card */
+.reusable_cards_wrap {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.card_img {
+    width: 100%;
+    border-radius: 20px;
 }

@@ -60,7 +60,7 @@
     box-shadow: 0 0 10px var(--color-orange);
 }
 .wrapper {
-    padding-top: 265px;
+    padding: 265px 0 60px;
 }
 
 .home_ban_img {
